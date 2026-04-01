@@ -498,7 +498,8 @@ button {
     color: var(--slate);
 }
 
-.feature-wrapper {
+.feature-wrapper,
+.feature-icon {
     display: none;
 }
 
@@ -768,10 +769,10 @@ button {
     color: var(--cloud);
 }
 
-.footer-logo {
+.logo.footer-logo {
+    display: block;
     text-align: center;
     margin-bottom: 16px;
-    padding: 0;
 }
 
 .footer-container {
@@ -849,6 +850,7 @@ button {
 }
 
 .footer-form-head {
+    text-align: center;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -859,11 +861,15 @@ button {
 
 .footer-form {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .footer-form-email {
-    width: 264px;
+    width: 288px;
     height: 40px;
     border: 1px solid var(--white);
     background-color: transparent;
@@ -892,6 +898,11 @@ button {
     background-color: var(--iris);
     border: none;
     border-radius: 4px;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background-color: var(--green);
 }
 
 .footer-icon-sub {
