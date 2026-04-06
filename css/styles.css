@@ -1,6 +1,7 @@
 .hidden {
     display: none;
 }
+
 :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
@@ -462,6 +463,7 @@ button {
     .hero-title {
     margin-bottom: 48px;
 }
+}
 /* #endregion */
 /* #region Feature */
 .features {
@@ -545,7 +547,6 @@ button {
         justify-content: center;
         align-items: center;
     }
-}
 }
 /* #endregion */
 
