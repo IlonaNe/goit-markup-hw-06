@@ -498,8 +498,7 @@ button {
     color: var(--slate);
 }
 
-.feature-wrapper,
-.feature-icon {
+.feature-wrapper {
     display: none;
 }
 
